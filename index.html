@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+        
+    </head>
+    <body>
+        <div class="container">
+            <nav class="desk">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a>About</a>
+                        <ul>
+                            <li><a href="https://votexstudios.github.io/voltexstudios/OurTeam.html">Our Team</a></li>
+                            <li><a href="News.html">News</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Project</a>
+                        <ul>
+                            <li><a href="Project.html">Aperture</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Downloads</a>
+                        <ul>
+				<li><a href="BookofSpecs.pdf">Book of Specifications</a></li>
+				<li><a href="Def1.pdf">1<sup>st</sup> Report</a></li>
+				<li><a href="Def2.pdf">2<sup>nd</sup> Report</a></li>
+				<li><a href="3rdDef.pdf">Final Report</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="mob">
+                <div class="hamburger-btn" id="humburger-button">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+                <ul class="menu">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="one"><a>About<i class="fa fa-caret-down" aria-hidden="true"></a></i>
+                        <ul class="submenu">
+                            <li><a href="https://votexstudios.github.io/voltexstudios/OurTeam.html">Our Team</a></li>
+                            <li><a href="News.html">News</a></li>
+                        </ul>
+                    </li>
+                    <li class="two"><a>Project<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <ul class="submenu1">
+                            <li><a href="Project.html">Aperture</a></li>
+                        </ul>
+                    </li>
+                    <li class="three"><a>Downloads<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <ul class="submenu2">
+                            <li><a href="BookofSpecs.pdf">Book of Specifications</a></li>
+                            <li><a href="Def1.pdf">1<sup>st</sup> Report</a></li>
+                            <li><a href="Def2.pdf"><sup>nd</sup> Report</a></li>
+                            <li><a href="3rdDef.pdf">Final Report</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <br>
+        <br>
+        <div class="name">
+            <i class="fa fa-dot-circle-o" aria-hidden="true">VolTeX Studios</i>
+        </div>
+        <h1>Est. 2020</h1>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            
+            $(document).ready(function(){
+                initHamburger();
+            });
+        </script>
+        <script src="main.js"></script></script>
+    </body>
+</html>

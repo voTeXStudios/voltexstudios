@@ -1,0 +1,178 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles2.css">
+        <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    </head>
+    <body>
+        <div class="News-Section">
+            <h1 class="header">VolTeX News</h1>
+        </div>
+        <br>
+        <hr>
+
+
+        <div class= "heading">
+            <h2 class="header1">D day approaching</h2>
+            <p class="latestdate">-May 26<sup>th</sup>, 2020</p>
+        </div>
+        <div class="breakingnews">
+            <p class="content1">The Final Soutenance is approaching. It's been tough for everyone in this covid-19 situation. We had some troubles in sharing our project with one another, 
+                communicating with one another. But it did not stop us. 
+                We as a group are working day and night to finish with a polished game. 
+                It's been a great journey. We feel privileged, that we as a group got to work together on 
+                this fantastic project. We are on the verge of finishing the documents we need for this Soutenance and fixing bugs in our game.
+                 Our project Aperture, includes a lot of elements which a normal FPS should probably have. We hope you like it. 
+            </p>
+        </div>
+        <br>
+        <br>
+
+
+
+        <div class="heading1" onclick="myfunction()">
+            <h3 class="header1">VolTeX are back with the improved map</h3>
+            <p class="latestdate">-May 13<sup>th</sup>, 2020</p>
+        </div>
+        <div class="news" id="news2">
+            <div class="picture">
+                <img src="map.png" height="350" >
+            </div>
+            <p class="content1">We have the final map textures for Level1, with reflections and everything. <br> 
+                Everyone knows how important a map is for immersion of a player in the game.<br>
+                As one can see , all the textures have been applied to all meshes that we<br>
+                designed before. Compared to the previous map that we had, small changes
+                have been made.
+                <br><br> "We have used a bit particle effect to create the smoke effect in the room.<br> We have also added reflections in the room, to give a good look to the map.<br>
+            I think by the deadline, we will have a fantastic game done"<br><br>-Sofiane Bekhat(The Graphics Designer)</p>
+        </div>
+        <br>
+        <br>
+
+
+
+        <div class="heading1" onclick="myfunction1()">
+            <h4 class="header1">It's here. Ladies and gentlemen, Portals are here</h4>
+            <p class="date">-May 7<sup>th</sup>, 2020</p>
+        </div>
+        <div class="news" id="news1">
+            <div class="picture">
+                <img src="Portals.png" height="400" >
+            </div>
+            <p class="content1">Finally! The Portals are working. The main aspect of the game is working.<br> After so many prototypes and problems faced with rotation of the portals, 
+                <br>finally it's working. We have used RenderTexture to render the whole view of the camera on another portal as a mesh. The game includes two portals,<br> 
+                if you move through one portal, you will be teleported to the other portal.<br> And it is useful for solving the puzzle we have for the audience in this game. 
+                <br>
+                <br>
+                In the given image, you can see how the portals look in our project. <br>
+                "We got inspired by the actual game, portal 2. Before starting working on our project,<br> we thought
+                it will be difficult the portal mechanism"
+                <br>
+                -Abhishek Bose(Gameplay Developer)
+            </p>
+        </div>
+        <br>
+        <br>
+
+
+        <div class="heading1" onclick="myfunction2()">
+            <h5 class="header1">Enemy Bots are here to kill us</h5>
+            <p class="date">-May 1<sup>st</sup>, 2020</p>
+        </div>
+        <div class = "news" id="news">
+            <div class="BotPic1">
+                <img src="BotNormal.png" height= "300">
+            </div>
+            <div class="BotPic2">
+                <img src="BotAlpha.png" height= "300">
+            </div>
+            <br><br>
+            <p class="content1">Enemy Bots are here to kill us. Enemies are essential for any FPS game. There are 3 types of Enemy Bots in our game. 2 of them are standard version, 
+                and the golden 
+                one is the Alpha version as you can see in the two images above. The AI of these Bots is the same as explained in Soutenance 2 by our Game Engineer, Rajat John.
+                These Bots, after getting kill ed provide the players certain amount of shield and ammos depending upon the bot, to give an additional help to the player to complete the whole game.
+                
+                <br><br>
+                "Enemies are needed. Without them, the game is boring. Every game needs obstacles, and these bots are one of those many obstacles in the game"
+                <br>
+                -Rajat John(Game Engineer)
+            </p>
+        </div>
+        <br><br>
+
+        <div class="heading1" onclick="myfunction3()">
+            <h6 class="header1">Second Soutenance on the brink</h6>
+            <p class="date">-April 22<sup>rd</sup>, 2020</p>
+        </div>
+        <div class="news" id="2ndDef">
+            <p class="content1">Second Soutenance is on its way. Initially, it was planned to be conducted in school. But as we all are facing 
+               an unprecedented situation, we are required to give an online presentation by recording a video. We never hoped to give the presenetation in an electronic form. 
+               We feel that this form of presentation has its own pros and cons. We feel electronic presenation gives us more
+               freedom to present our project. But the video merging is an added work in an already tight schedule.
+               <br><br> But nonetheless, we
+                have worked tirelessly on our project. The feeling of nervousness and 
+               excitement is overwhelming. Excitement because we have made considerable progress in our project, and we want the jury to look at it and judge it.
+               But nervousness, because we have worked a lot and one thing might kill the whole project. We hope that the progress remains steady, and we hope to have a complete
+               game by the end of the final Soutenance.
+                
+            </p>
+        </div>
+
+        
+
+        
+        <script>
+            function myfunction1()
+            {
+                var x = document.getElementById("news1");
+                if (x.style.display === "none")
+                {
+                    x.style.display = "block";
+                }
+                else
+                {
+                    x.style.display = "none";
+                }
+            }
+
+            function myfunction()
+            {
+                var x = document.getElementById("news2");
+                if (x.style.display == "none")
+                {
+                    x.style.display = "block";
+                }
+                else
+                {
+                    x.style.display = "none"
+                }
+            }
+
+            function myfunction2()
+            {
+                var x = document.getElementById("news");
+                if (x.style.display === "none")
+                {
+                    x.style.display = "block";
+                }
+                else
+                {
+                    x.style.display = "none";
+                } 
+            }
+
+            function myfunction3()
+            {
+                var x = document.getElementById("2ndDef");
+                if (x.style.display == "none")
+                {
+                    x.style.display = "block";
+                }
+                else
+                {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+    </body>
+</html>
